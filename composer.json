@@ -1,0 +1,17 @@
+{
+    "name": "letyii/yii2-user",
+    "description": "User manager and RBAC, login, register for Yiiframework 2",
+    "homepage": "https://github.com/letyii/yii2-user",
+    "keywords": ["yii2","mongodb","rbac"],
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "letyii\\user\\": ""
+        }
+    }
+}
